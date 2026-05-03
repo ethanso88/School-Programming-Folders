@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Calculate {
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		int num1;
+		int num2;
+		int sum;
+		int product;
+		int difference; 
+		int quotient; 
+		
+		num1 = input.nextInt();
+		num2 = input.nextInt();
+		
+		sum = num1 + num2;
+		product = num1 * num2;
+		difference = num1 - num2;
+		quotient = num1 / num2;
+		
+		//output
+		System.out.printf("The sum is: %d", sum);
+		System.out.printf("The product is: %d", product);
+		System.out.printf("The difference is: %d", difference);
+		System.out.printf("The quotient is: %d", quotient);
+		
+	}
+
+}

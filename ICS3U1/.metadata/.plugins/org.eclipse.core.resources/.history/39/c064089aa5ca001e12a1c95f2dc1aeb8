@@ -1,0 +1,56 @@
+import java.util.Scanner;
+
+//Name: Ethan So
+//Date: Feb 13th 2024
+//Course: ICS3U1-06 - Mr. Fernandes
+//Description: A program to calculate the sum, product, average of 3 numbers as well as which is the largest and smallest
+//Major Skills: variables, taking input, printing output
+
+public class Calculate3 {
+
+	public static void main(String[] args) {
+		
+		//setup input variable with scanner
+		Scanner input = new Scanner(System.in);
+		
+		//Variables
+		int num1, num2, num3; 
+		int sum, product, smallest, largest;
+		double average; //set average as a double since average will be a decimal
+		
+		//Input
+		System.out.println("Enter the three numbers:");
+		num1 = input.nextInt();
+		num2 = input.nextInt();
+		num3 = input.nextInt();
+		
+		//Processing - calculate results
+		sum = num1 + num2 + num3; 
+		average = (double)sum / 3; //'cast' sum to turn it into a decimal 
+		product = num2 * num2 * num3;
+		
+		//P - find the smallest
+		if (num1 < num2 && num1 < num3) //&& means 'and'
+			smallest = num1; 
+		else if (num2 < num1 && num2 < num3)
+			smallest = num2;
+		else
+			smallest = num3; 
+		
+		//P - find the largest
+		if (num1 > num2 && num1 > num3) //&& means 'and'
+			largest = num1; 
+		else if (num2 > num1 && num2 > num3)
+			largest = num2;
+		else
+			largest = num3; 
+		
+		//Output 
+		System.out.printf("The sum is %d\n", sum);
+		System.out.printf("The average is %.2f \n", average);
+		System.out.printf("The product is %d\n", product);
+		System.out.printf("The smallest number is %d and the largest number is %d", smallest, largest);
+
+	}
+
+}

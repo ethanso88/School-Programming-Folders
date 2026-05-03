@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class CharToInt {
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in); 
+		
+		String letter1 = new String();
+		
+		letter1 = input.next().charAt(0);
+		//next being the word and 0 being the 1st character
+		
+		System.out.println(letter1);
+		
+	}
+
+}

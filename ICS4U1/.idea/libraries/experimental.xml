@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="experimental">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Unit 4 - Software Development/SDP 2 - Data Mining Project/lib/jfreechart-1.0.9/experimental" />
+      <root url="file://$PROJECT_DIR$/Unit 4 - Software Development/SDP 2 - Data Mining Project/lib/jfreechart-1.0.9/source" />
+      <root url="file://$PROJECT_DIR$/Unit 4 - Software Development/SDP 2 - Data Mining Project/lib/jfreechart-1.0.9/swt" />
+      <root url="file://$PROJECT_DIR$/Unit 4 - Software Development/SDP 2 - Data Mining Project/lib/jfreechart-1.0.9/tests" />
+    </SOURCES>
+  </library>
+</component>

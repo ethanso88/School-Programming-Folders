@@ -1,0 +1,12 @@
+"Spring Wheat: Area and Production by County, 2016",,,,,
+,Acres seeded ,Acres harvested  ,Yield (bushels/acre),Production ('000 bushels), Production ('000 tonnes)
+Ontario,"  90,000 ","  90,000 ",  53.4 ,"  4,800.0 ",  130.6 
+Southern Ontario,"  1,800 ","  1,800 ",  69.7 ,  125.5 ,  3.4 
+Western Ontario,"  34,371 ","  34,071 ",  49.4 ,"  1,683.0 ",  45.8 
+Central Ontario,  -   ,  -   ,  -   ,  -   ,  -   
+Eastern Ontario,"  27,700 ","  27,700 ",  54.4 ,"  1,506.8 ",  41.0 
+Northern Ontario,"  26,130 ","  26,330 ",  56.4 ,"  1,484.5 ",  40.4 
+,,,,,
+"Note: Please note that the figures above are estimates primarily derived from a probability survey conducted by Statistics Canada, in conjunction with other administrative data sources. The probability survey is designed to produce accurate field crop area and yield information for the province as a whole. However, the accuracy of county and district estimates may suffer, particularly when the level of farming activity in a given area is relatively small. Thus, a measure of caution is advised when using sub-provincial estimates.",,,,,
+,,,,,
+Reference: OMAFRA calculations adapted from Statistics Canada,,,,,

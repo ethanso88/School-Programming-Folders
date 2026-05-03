@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class CharToInt {
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in); 
+		
+		//variables
+		int letter1;
+		
+		//taking input
+		letter1 = input.next().charAt(0);
+		//next being the word and 0 being the 1st character
+		
+		System.out.println(letter1);
+		
+		//method 2
+		String letter2 = new String();
+		
+		letter2 = input.next();
+		
+		System.out.println("The character " + letter2 + " has the value " + (int) letter2);
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+"Gross farm receipts and total operating expenses, classified by gross farm receipts distribution, Ontario (Province, CAR, CD, CCS), 2006",,,,,,,,,,,
+"Source: 2006, Census of Agriculture, Statistics Canada",,,,,,,,,,,
+,,,,,,,,,,,
+Province - Code,Census Agricultural Region (CAR) - Code,Census Division (CD) - Code,Census Consolidated Subdivision (CCS) - Code,Geographic identification,Distribution: Total gross farm receipts (excluding sales of forest products),Total gross farm receipts (excluding sales of forest products) in the calendar year prior to the census or for the last complete accounting (fiscal) year prior to the census - Farms reporting,Total gross farm receipts (excluding sales of forest products) in the calendar year prior to the census or for the last complete accounting (fiscal) year prior to the census - Amount $ *,Total farm business operating expenses in the calendar year prior to the census or for the last complete accounting (fiscal) year prior to the census - Amount $ **,Average Net Operating Income per farm,Net Operating Income per Total dollar of Gross Farm Receipts,Operating Expenses as a percentage of Total Gross Farm Receipts
+35,0,0,0,Ontario,All farms,"57,211","10,342,031,229","8,843,882,426","26,186",0.14,86%
+35,1,0,0,Southern Ontario Region,All farms,"18,665","4,672,359,547","4,027,246,530","34,563",0.14,86%
+35,2,0,0,Western Ontario Region,All farms,"18,498","3,558,769,546","3,007,939,838","29,778",0.15,85%
+35,3,0,0,Central Ontario Region,All farms,"8,705","931,804,021","832,086,541","11,455",0.11,89%
+35,4,0,0,Eastern Ontario Region,All farms,"8,864","999,920,834","824,730,042","19,764",0.18,82%
+35,5,0,0,Northern Ontario Region,All farms,"2,479","179,177,281","151,879,475","11,012",0.15,85%
+,,,,,,,,,,,
+   ..    not available for a specific reference period,,,,,,,,,,,
+   x    suppressed to meet the confidentiality requirements of the Statistics Act,,,,,,,,,,,
+   0    true zero or a value rounded to zero,,,,,,,,,,,
+,,,,,,,,,,,
+* gross farm receipts is based on income tax filings and thus generally does not include changes in inventory or accounts receivable,,,,,,,,,,,
+"** total operating expenses is based on income tax filings but excludes capital cost allowance, and mandatory and optional inventory adjustments and thus generally doenst include changes in accounts payable",,,,,,,,,,,

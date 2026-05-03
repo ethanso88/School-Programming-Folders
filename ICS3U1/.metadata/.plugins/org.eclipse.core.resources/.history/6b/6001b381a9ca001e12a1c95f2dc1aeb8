@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class CharToInt {
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in); 
+		
+		//variables
+		int letter;
+		
+		//taking input
+		System.out.print("Enter a character to be displayed as an integer:");
+		letter = input.next().charAt(0);
+		//next being the word and 0 being the 1st character
+		
+		System.out.println(letter);
+		
+	}
+
+}

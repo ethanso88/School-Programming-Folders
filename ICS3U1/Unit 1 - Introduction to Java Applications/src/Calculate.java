@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+//Name: Ethan So
+//Date: Feb 13th 2024
+//Course: ICS3U1-06 - Mr. Fernandes
+//Description: A program to calculate the sum, product, difference and quotient of 2 numbers
+//Major Skills: variables, taking input, printing output
+
+public class Calculate {
+    
+    public static void main(String[] args) {
+        
+        //setup input variable with scanner
+        Scanner input = new Scanner(System.in);
+        
+        //declare variables
+        int num1;
+        int num2;
+        int sum;
+        int product;
+        int difference; 
+        int quotient; 
+        
+        //Input
+        System.out.print("Please enter the 2 numbers to be calculated: "); //prompt for the input
+        num1 = input.nextInt();
+        num2 = input.nextInt();
+        input.close();
+        
+        //Process - calculate the sum, product, difference and quotient
+        sum = num1 + num2;
+        product = num1 * num2;
+        difference = num1 - num2;
+        quotient = num1 / num2;
+        
+        //Output
+        System.out.printf("The sum is: %d \n", sum);
+        System.out.printf("The product is: %d \n", product);
+        System.out.printf("The difference is: %d \n", difference);
+        System.out.printf("The quotient is: %d \n", quotient);
+        
+    } //end of main method
+
+} //end of class

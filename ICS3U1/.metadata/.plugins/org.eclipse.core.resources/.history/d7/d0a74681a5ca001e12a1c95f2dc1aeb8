@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Calculate3 {
+
+	public static void main(String[] args) {
+		
+		//setup input variable with scanner
+		Scanner input = new Scanner(System.in);
+		
+		//Variables
+		int num1;
+		int num2;
+		int num3; 
+		int sum;
+		double average; //set average as a double since average will be a decimal
+		int product;
+		
+		//Input
+		System.out.println("Enter the three numbers:");
+		num1 = input.nextInt();
+		num2 = input.nextInt();
+		num3 = input.nextInt();
+		
+		//Processing - calculate the sum, average and product of the 3 numbers
+		sum = num1 + num2 + num3; 
+		average = (double)sum / 3; //'cast' sum to turn it into a decimal 
+		product = num2 * num2 * num3;
+		
+		//Output 
+		System.out.printf("The sum is %d\n", sum);
+		System.out.printf("The average is %f\n", average);
+		System.out.printf("The product is %d\n", product);
+
+	}
+
+}

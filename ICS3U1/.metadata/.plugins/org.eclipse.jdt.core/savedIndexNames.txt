@@ -1,0 +1,12 @@
+INDEX VERSION 1.134+C:\Users\easo8\OneDrive\Desktop\ICS3U1\.metadata\.plugins\org.eclipse.jdt.core
+3607600235.index
+1329619035.index
+95496484.index
+3413270776.index
+3888268016.index
+1664405848.index
+1865797976.index
+60526621.index
+2852495707.index
+3354100685.index
+4035435371.index

@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Digits2 {
+	
+	public static void main(String[] args) {
+		
+		//Variables
+		Scanner input = new Scanner(System.in); //input with Scanner 
+		int number; //5 digit number 
+		String stringNum; //create String variable to hold the String version of the number
+		
+		//I - input 5 digit number
+		System.out.print("Enter 5 digit number: ");
+		number = input.nextInt();
+		
+		//P - Convert number into a string 
+		stringNum = Integer.toString(number); //Integer is a 'Wrapper' class
+		
+		//O - output the String while separating the characters with a space
+		System.out.printf("%s %s %s %s %s", stringNum.charAt(0), stringNum.charAt(1),
+				stringNum.charAt(2), stringNum.charAt(3), stringNum.charAt(4));
+		
+	}
+
+}

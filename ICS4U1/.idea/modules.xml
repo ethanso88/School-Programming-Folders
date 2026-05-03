@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Exam Review/Exam Review.iml" filepath="$PROJECT_DIR$/Exam Review/Exam Review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FSP/FSP.iml" filepath="$PROJECT_DIR$/FSP/FSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FSP2/FSP2.iml" filepath="$PROJECT_DIR$/FSP2/FSP2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FSP3/FSP3.iml" filepath="$PROJECT_DIR$/FSP3/FSP3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ICS4U1.iml" filepath="$PROJECT_DIR$/ICS4U1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unit 3 - OOP/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Unit 3 - OOP/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unit 4 - Software Development/SDP 1 - Bohnanza/SDP 1 - Bohnanza.iml" filepath="$PROJECT_DIR$/Unit 4 - Software Development/SDP 1 - Bohnanza/SDP 1 - Bohnanza.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unit 4 - Software Development/SDP 2 - Data Mining Project/SDP 2 - Data Mining Project.iml" filepath="$PROJECT_DIR$/Unit 4 - Software Development/SDP 2 - Data Mining Project/SDP 2 - Data Mining Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unit 4 - Software Development/SDP Prac - Bingo Game/SDP Prac - Bingo Game.iml" filepath="$PROJECT_DIR$/Unit 4 - Software Development/SDP Prac - Bingo Game/SDP Prac - Bingo Game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unit 0 - Review/Unit 0 - Review.iml" filepath="$PROJECT_DIR$/Unit 0 - Review/Unit 0 - Review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unit 1 - Algorithms/Unit 1 - Algorithms.iml" filepath="$PROJECT_DIR$/Unit 1 - Algorithms/Unit 1 - Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unit 2 - Recursion/Unit 2 - Recursion.iml" filepath="$PROJECT_DIR$/Unit 2 - Recursion/Unit 2 - Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unit 3 - OOP/Unit 3 - OOP.iml" filepath="$PROJECT_DIR$/Unit 3 - OOP/Unit 3 - OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unit 4 - Software Development/Unit 4 - Software Development.iml" filepath="$PROJECT_DIR$/Unit 4 - Software Development/Unit 4 - Software Development.iml" />
+    </modules>
+  </component>
+</project>
