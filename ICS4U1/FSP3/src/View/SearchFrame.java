@@ -105,7 +105,7 @@ public class SearchFrame {
         frame.setLayout(null);
 
         // Frame Logo (replace text label with image)
-        String logoPath = "Icons/nmda_logo.png"; // Updated path
+        String logoPath = Util.ProjectPaths.icon("nmda_logo.png").getPath();
         java.io.File logoFile = new java.io.File(logoPath);
         if (logoFile.exists()) {
             ImageIcon originalIcon = new ImageIcon(logoPath);

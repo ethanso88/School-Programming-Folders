@@ -25,7 +25,7 @@ public class FileInputController {
     private ArrayList<Nanofiber> nanofibers;
 
     public FileInputController() {
-        String basePath = "C:\\Users\\easo8\\OneDrive\\Desktop\\ICS4U1\\FSP\\Data\\";
+        String basePath = new File(Util.ProjectPaths.root(), "Data").getPath() + File.separator;
 
         fullerenes = new ArrayList<>();
         quantumDots = new ArrayList<>();
@@ -265,11 +265,11 @@ public class FileInputController {
         value = value.trim().toLowerCase();
 
         // Remove common units
-        value = value.replaceAll("\\s*(nm|mm|μm|um|pm|cm|m)\\b", "");
+        value = value.replaceAll("\\s*(nm|mm|\u03bcm|um|pm|cm|m)\\b", "");
 
-        // Handle ranges like "5–10" or "5-10"
-        if (value.contains("–") || value.contains("-")) {
-            String[] parts = value.split("[–-]");
+        // Handle ranges like "5\u201310" or "5-10"
+        if (value.contains("\u2013") || value.contains("-")) {
+            String[] parts = value.split("[\u2013-]");
             if (parts.length == 2) {
                 try {
                     double a = Double.parseDouble(parts[0].replaceAll("[^0-9.\\-]", ""));

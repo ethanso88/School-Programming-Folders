@@ -525,7 +525,8 @@ public class SearchController {
         // Sort the filtered list by name
         filtered.sort(Comparator.comparing(Material::getName, String.CASE_INSENSITIVE_ORDER));
 
-        // Update the display
-        searchFrame.updateMaterialList(filtered);
+        // Update the display (displayMaterials is the method SearchFrame actually has;
+        // the committed call to updateMaterialList never compiled)
+        searchFrame.displayMaterials(filtered);
     }
 }

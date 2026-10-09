@@ -43,7 +43,7 @@ public class TitleFrame {
         frame.setLayout(null);
 
   // Frame Logo (replace text label with image)
-String logoPath = "FSP/Icons/nmda_logo.png";
+String logoPath = Util.ProjectPaths.icon("nmda_logo.png").getPath();
 java.io.File logoFile = new java.io.File(logoPath);
 if (logoFile.exists()) {
     // Load the image and scale it to a natural size (preserving aspect ratio)
@@ -106,7 +106,7 @@ if (logoFile.exists()) {
             int x = gap + i * (iconSize + gap);
 
             // Use relative file path for image loading
-            String relPath = "FSP/Icons/" + ICONS[i];
+            String relPath = Util.ProjectPaths.icon(ICONS[i]).getPath();
             ImageIcon icon = null;
             java.io.File imgFile = new java.io.File(relPath);
             if (imgFile.exists()) {

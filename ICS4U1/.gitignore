@@ -27,3 +27,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# FSP3 ships its VS Code config on purpose (see FSP3/README.md)
+!FSP3/.vscode/
